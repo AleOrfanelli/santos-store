@@ -1,0 +1,337 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    padding-top: 90px;
+    box-sizing: border-box;
+
+}
+
+/* HEADER DO SITE*/
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*posicionar na HORIZONTAL*/
+    align-items: center;
+    /*posicionar na VERTICAL*/
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: rgb(212, 173, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 22);
+    text-decoration: underline;
+}
+
+.sociais {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sociais img {
+    margin-right: 30px;
+}
+
+
+/*MAIN DO SITE*/
+.avisos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.avisos img {
+    width: 50px;
+    height: 50px;
+}
+
+.seguranca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 140px;
+}
+
+.seguranca img {
+    padding: 15px;
+}
+
+.txt1 p {
+    margin: 0;
+}
+
+.subt1 {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.cartao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartao img {
+    padding: 17px;
+}
+
+.txt2 p {
+    margin: 0;
+}
+
+.subt2 {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.caminhao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.caminhao img {
+    padding: 16px;
+}
+
+/*----MAIN-----*/
+
+main {
+    margin: 0 90px;
+}
+
+.txt3 p {
+    margin: 0;
+}
+
+.subt3 {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.produtos-h3 {
+    margin-bottom: 30px;
+    color: #404c58;
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prod1 {
+    background-color: white;
+    width: 250px;
+    height: 340px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.199);
+    padding: 15px;
+}
+
+.prod1 :hover {
+    color: #D1A609;
+}
+
+.img-prod1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.info-prod1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.info-prod1 a {
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    color: #707982;
+}
+
+.info-prod1 p {
+    text-align: center;
+    margin: 0;
+    color: #707982;
+}
+
+.preco-prod1 {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #D1A609;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.all-categoria {
+    text-align: center;
+}
+
+.categoria-h3 {
+    color: #404c58;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoria a {
+    color: black;
+    text-decoration: none;
+}
+
+.categoria h3 :hover {
+    color: #D1A609;
+}
+
+.foto-time {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.this-is-game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.conheca-tambem h3 {
+    color: #404c58;
+    text-align: center;
+    margin: 33px 0;
+}
+
+.conheca-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conheca-img img {
+    width: 185px;
+    border-radius: 50%;
+    border: solid 1px black;
+    margin-bottom: 70px;
+}
+
+/*----FOOTER-----*/
+.footer-1 {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 40px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer-1 h3 {
+    text-align: center;
+}
+
+.footer-1 a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+}
+
+
+.sub-footer-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.sub-footer-1-1 img {
+    width: 120px;
+    height: 40px;
+}
+
+.sub-footer-1-2 li :hover {
+    color: #D1A609;
+
+}
+
+.sub-footer-1-3 li>a {
+    padding-right: 36px;
+
+}
+
+.sub-footer-1-3 :hover {
+    color: #D1A609;
+
+}
+
+.sub-footer-1-insta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-footer-1-insta img {
+    height: 24px;
+}
+
+.sub-footer-1-insta a {
+    padding-bottom: 20px;
+}
+
+.sub-footer-1-4 {
+    text-align: center;
+}
+
+.sub-footer-1-4 :hover {
+    color: #D1A609;
+
+}
